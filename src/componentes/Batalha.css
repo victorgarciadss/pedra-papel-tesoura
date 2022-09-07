@@ -1,0 +1,36 @@
+.batalha{
+    display: flex;    
+}
+
+.lado-esquerdo{
+    text-align: left;
+    width: 16.6%;
+    cursor: pointer;
+}
+
+.resposta{
+    margin: auto;
+    width: 16.6%;
+    font-size: 3rem;
+}
+
+.versus{
+    width: 33.3%;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.lado-direito{
+    text-align: right;
+    width: 16.6%;
+}
+
+div.opcoes-gesto{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.opcoes-gesto{
+    font-size: 3rem;
+}
+
