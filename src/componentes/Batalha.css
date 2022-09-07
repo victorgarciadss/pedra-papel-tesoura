@@ -34,3 +34,16 @@ div.opcoes-gesto{
     font-size: 3rem;
 }
 
+@media screen and (max-width: 600px){
+    .opcoes-gesto{
+        font-size: 2rem;
+    }
+
+    .resposta{
+        font-size: 2rem;
+    }
+
+    .versus{
+        font-size: 2rem;
+    }
+}

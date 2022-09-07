@@ -26,12 +26,12 @@ h1{
 
 @media screen and (max-width: 600px){
     .campo{
-        width: 25rem;
+        width: 20rem;
         box-shadow: -5px -5px 1px 5px #7e4dbf;
         border: 2px solid #380d70;
     }
 
     h1{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 }
