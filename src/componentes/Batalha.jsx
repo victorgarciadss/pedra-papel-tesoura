@@ -48,9 +48,9 @@ const Batalha = (props) => {
         
         <div className='batalha'>
             <div className="lado-esquerdo">
-                <div className='opcoes-gesto' onClick={handleClick}>{'\u270A'}</div> 
-                <div className='opcoes-gesto' onClick={handleClick}>{'\u270B'}</div> 
-                <div className='opcoes-gesto' onClick={handleClick}>{'\u270C'}</div>
+                <div className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270A'}</div> 
+                <div className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270B'}</div> 
+                <div className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270C'}</div>
             </div>
 
             <div className='resposta'>

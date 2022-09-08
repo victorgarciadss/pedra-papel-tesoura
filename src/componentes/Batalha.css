@@ -5,7 +5,7 @@
 .lado-esquerdo{
     text-align: left;
     width: 16.6%;
-    cursor: pointer;
+    
 }
 
 .resposta{
@@ -25,13 +25,14 @@
     width: 16.6%;
 }
 
-div.opcoes-gesto{
+.opcoes-gesto{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 3rem;
 }
 
-.opcoes-gesto{
-    font-size: 3rem;
+.btn-left{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
