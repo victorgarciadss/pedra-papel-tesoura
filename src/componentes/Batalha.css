@@ -26,9 +26,12 @@
 }
 
 .opcoes-gesto{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
     font-size: 3rem;
+    background-color: transparent;
+    border: none;
+
 }
 
 .btn-left{
@@ -37,6 +40,8 @@
 
 @media screen and (max-width: 600px){
     .opcoes-gesto{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
         font-size: 2rem;
     }
 

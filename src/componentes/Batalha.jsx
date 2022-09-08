@@ -48,9 +48,9 @@ const Batalha = (props) => {
         
         <div className='batalha'>
             <div className="lado-esquerdo">
-                <div className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270A'}</div> 
-                <div className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270B'}</div> 
-                <div className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270C'}</div>
+                <button className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270A'}</button> <br />
+                <button className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270B'}</button> <br />
+                <button className='opcoes-gesto btn-left' onClick={handleClick}>{'\u270C'}</button>
             </div>
 
             <div className='resposta'>
@@ -64,9 +64,9 @@ const Batalha = (props) => {
             </div>
 
             <div className='lado-direito'>
-                <div className='opcoes-gesto'>{'\u270A'}</div>
-                <div className='opcoes-gesto'>{'\u270B'}</div>
-                <div className='opcoes-gesto'>{'\u270C'}</div>
+                <button className='opcoes-gesto'>{'\u270A'}</button> <br />
+                <button className='opcoes-gesto'>{'\u270B'}</button> <br />
+                <button className='opcoes-gesto'>{'\u270C'}</button>
             </div>
  
         </div>
