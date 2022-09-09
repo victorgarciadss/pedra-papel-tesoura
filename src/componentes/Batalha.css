@@ -46,7 +46,7 @@
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         font-size: 2rem;
-        
+        -webkit-tap-highlight-color: transparent;
     }
 
     .resposta{
